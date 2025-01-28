@@ -1,0 +1,106 @@
+.sectionEstrenos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.titPeli{
+    border: solid #ffe368;
+    color: #ffe368;
+    padding: 2px;
+    background-color: black;
+    padding: 1%;
+    margin-inline: 5%;
+    transition: 0.4s;
+    margin-top: 3%;
+}
+
+.titPeli:link{
+    text-decoration: none;
+}
+
+.titPeli:visited{
+    text-decoration: none;
+}
+
+.titPeli:hover{
+    box-shadow: 0 0 15px rgba(220, 235, 17, 5);
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.infoPeli{
+    font-size: larger;
+    color: #ffe368;
+}
+
+.cuadroPeliculas{
+    overflow: hidden;
+    border: 1px solid #ffe368;
+    border-radius: 5px;
+    transition: 0.4s;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.cuadroPeliculas:hover{
+    transform: scale(1.04);
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 15px rgba(220, 235, 17, 5);
+}
+
+.cuadroPeliculas img{
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* Hace que la imagen se ajuste al tamaño del contenedor sin perder su relación de aspecto */
+}
+
+.articleTitulo{
+    text-align: center;
+    justify-content: center;
+    border-top: 2px solid black;
+}
+
+.tituloEstrenos{
+    border: 3px #ffe368 solid ;
+    padding: 1%;
+    display: inline-block;
+    color: #ffe368;
+    font-size: 200%;
+    background-color: #0d0c0c;
+}
+
+.tituloEstrenos:hover{
+    box-shadow: 0 0 15px rgba(220, 235, 17, 5);
+}
+/****************/
+
+.sectionEstrenos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #f4df85;
+    background-color: #111e4b;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 60%; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 2%; /* Margen automático para centrar horizontalmente */
+}
+
+.movie_info{
+    padding: 20px; /* Ajusta el valor del margen interno según tus necesidades */
+    margin-bottom: -30px;
+}

@@ -1,0 +1,59 @@
+#tablaHorarios{
+    border-collapse: collapse;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0%;
+    font-size: larger;
+    margin-bottom: 2%;
+}   
+
+#tablaHorarios:hover{
+    box-shadow: 0 0 15px rgba(220, 235, 17, 5);
+}
+
+thead {
+    background-color: #bf5959;
+}
+  
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+  
+th {
+    background-color: #ddd;
+}
+  
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+tr:nth-child(odd) {
+    background-color: #ead7d7;
+}
+  
+td:first-child {
+    font-weight: bold;
+}
+  
+.seccionHorarios{
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
+    margin-bottom: 2%; 
+}
+
+#lista1{
+    margin-left: 5%;
+    font-size: larger;
+    color: #ffff93;
+}
+
+#lista2{
+    margin-left: 5%;
+    font-size: larger;
+    color: #ffff93;
+}
+  

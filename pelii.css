@@ -1,0 +1,275 @@
+.sectionPelis{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(9,auto);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#tituloArticle{
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+    align-items: center;
+}
+
+#foto1{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#foto2{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#foto3{
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#foto4{
+    grid-column: 4;
+    grid-row: 2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#dat1{
+    grid-row: 3;
+    grid-column: 1/5;
+    color: #ffe368;
+    font-size: large;
+    border: solid #ffe368;
+    background-color: black;
+    margin-top: 3%;
+}
+
+#dat2{
+    grid-row: 4;
+    grid-column: 1;
+    text-align: right;
+    margin-right: 5%;
+    color: #ffe368;
+}
+
+#dat3{
+    grid-row: 5;
+    grid-column: 1;
+    text-align: right;
+    margin-right: 5%;
+    color: #ffe368;
+
+}
+
+#dat4{
+    grid-row: 6;
+    grid-column: 1;
+    text-align: right;
+    margin-right: 5%;
+    color: #ffe368;
+
+}
+
+#dat5{
+    grid-row: 7;
+    grid-column: 1;
+    text-align: right;
+    margin-right: 5%;
+    color: #ffe368;
+}
+
+#dat6{
+    grid-row: 8;
+    grid-column: 1;
+    text-align: right;
+    margin-right: 5%;
+    color: #ffe368;
+}
+
+#dat7{
+    grid-row: 9;
+    grid-column: 1;
+    text-align: right;
+    margin-right: 5%;
+    color: #ffe368;
+}
+
+#dat8{
+    grid-row: 4;
+    grid-column: 2;
+    text-align: left;
+    color: #ffffb2;
+}
+
+#dat9{
+    grid-row: 5;
+    grid-column: 2;
+    text-align: left;
+    color: #ffffb2;
+}
+
+#dat10{
+    grid-row: 6;
+    grid-column: 2;
+    text-align: left;
+    color: #ffffb2;
+}
+
+#dat11{
+    grid-row: 7;
+    grid-column: 2;
+    text-align: left;
+    color: #ffffb2;
+}
+
+#dat12{
+    grid-row: 8;
+    grid-column: 2;
+    text-align: left;
+    color: #ffffb2;
+}
+
+#dat13{
+    grid-row: 9;
+    grid-column: 2;
+    text-align: left;
+    color: #ffffb2;
+}
+
+#dat14{
+    grid-row: 5/10;
+    grid-column: 3/4;
+    text-align: justify;
+    color: #ffffb2;
+    margin-left: 10%;
+}
+
+#sinopsis{
+    grid-row: 4;
+    grid-column: 3/4;
+    color: #ffe368;
+}
+
+p{
+    font-size: large;
+}
+
+
+/****************************/
+#formComentarios{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    background-color: #f4eb85;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#formComentarios label{
+    display: block;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+  
+#formComentarios input, textarea, select{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0);
+    margin-bottom: 10px;
+    background-color: #ededb0;
+}
+
+#formComentarios input{
+    background-color: #ededb0;
+}
+
+#formComentarios select{
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23999' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7em top 50%;
+    background-size: 8px 10px;
+}
+  
+#formComentarios button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+#comentarios{
+    margin: 5%;
+    background-color: #f4eb85;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#comentarios h2{
+    font-size: x-large;
+    margin-bottom: 1%;
+    color: #0c0c34;
+    text-align: center;
+}
+
+#comentarios p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#comentarios ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#comentarios li{
+    padding: 10px;
+    background-color: #ededb0;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0);
+    margin-bottom: 2%;
+}
+
+.nombreU{
+    font-weight: normal;
+    color: #0c0c34;
+    padding: 0%;
+    margin: 0%;
+}
+
+.comentarioU{
+    color: #0c0c34;
+    font-weight: normal;
+    padding: 0%;
+    margin: 0%;
+}
+
+.valoracionU{
+    color: #0c0c34;
+    font-weight: normal;
+    padding: 0%;
+    margin: 0%;
+}
+
+/***********************/
+

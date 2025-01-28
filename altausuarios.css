@@ -1,0 +1,138 @@
+.labelAlta{
+    display: block;
+	margin-bottom: 10px;
+    color: black;
+}
+
+.inputAlta{
+	display: block;
+	width: 97%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0);
+    background-color: #ededb0;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="reset"]{  
+	background-color: #f55341;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    margin-left: 4%;
+}
+
+.mensaje{
+	background-color: #0c0c34;
+	color: #ffe368;
+	padding: 10px;
+    margin-right: 1%;
+	margin-top: 20px;
+	border-radius: 5px;
+    text-align: center;
+    font-size: larger;
+}
+
+#sectionAlta{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(2,auto);
+}
+
+#titAlta{
+    grid-column: 1;
+    grid-row: 1;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#formAlta{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    color: #ffe368;
+    background-color: #f4eb85;
+	padding: 2%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0);
+}
+
+.sexo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.sexo-label{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid black;
+}
+  
+.hombre-label{
+    background-color: #007bff;
+    color: black;
+}
+  
+.mujer-label{
+    background-color: #ff69b4;
+    color: black;
+}
+  
+.otro-label{
+    background-color: #888;
+    color: black;
+}
+
+/* Estilos CSS para la ventana emergente */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.popup-message {
+    margin-bottom: 10px;
+}
+
+.close-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}

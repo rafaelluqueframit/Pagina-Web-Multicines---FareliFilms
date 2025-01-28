@@ -1,6 +1,6 @@
 # FareliFilms - Pagina Web Multicines
 
-!i[Logo FarelFilms](./imagenes/FARELI_FILMS.jpg "Logo FarelFilms")
+![Logo FarelFilms](./imagenes/FARELI_FILMS.jpg "Logo FarelFilms")
 
 
 **Proyecto de Prácticas - Programación Web**  
